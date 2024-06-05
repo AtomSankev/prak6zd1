@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кольори фону</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        label {
+            font-size: 18px;
+            margin-right: 10px;
+        }
+        select {
+            font-size: 16px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <label for="colorSelect">Оберіть колір фону:</label>
+    <select id="colorSelect" onchange="changeBackgroundColor()">
+        <option value="white">Білий</option>
+        <option value="yellow">Жовтий</option>
+        <option value="red">Червоний</option>
+        <option value="green">Зелений</option>
+    </select>
+
+    <script src="script.js"></script>
+</body>
+</html>
